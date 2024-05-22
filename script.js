@@ -16,7 +16,5 @@ const realtimer = setInterval(function() {
     m.innerHTML = menit;
     const d = document.getElementById('detik');
     d.innerHTML = detik;
-
-
 }, 1000)
 
