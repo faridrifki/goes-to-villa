@@ -1,0 +1,40 @@
+body {
+    background-image: url('img/sunset.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+div h1.judul {
+    color: aliceblue;
+    margin: 100px 0 80px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+}
+
+div.container {
+    font-family: 'Gobold Bold', sans-serif;
+}
+
+div.container div.timer {
+    background-color: aliceblue;
+    font-size: 60px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    width: 60px;
+    border-radius: 12px;
+}
+
+div.container div.timer-info {
+    color: black;
+    width: 60px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 20px;
+}
