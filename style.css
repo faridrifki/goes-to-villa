@@ -8,7 +8,7 @@ body {
 
 div h1.judul {
     color: aliceblue;
-    margin: 100px 0 80px 0;
+    margin: 100px 0 30px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
 }
@@ -16,25 +16,24 @@ div h1.judul {
 div.container {
     display: flex;
     justify-content: center;
-}
-
-div.container {
     font-family: 'Gobold Bold', sans-serif;
 }
 
 div.container div.timer {
     background-color: aliceblue;
-    font-size: 60px;
+    font-size: 30px;
     padding: 10px 15px;
-    margin: 0 10px;
-    width: 60px;
+    margin: 0 5px;
+    width: 40px;
     border-radius: 12px;
 }
 
 div.container div.timer-info {
     color: black;
-    width: 60px;
+    width: 40px;
     padding: 10px 15px;
-    margin: 0 10px;
-    font-size: 20px;
+    margin: 0 5px;
+    font-size: 10px;
 }
+
+/* responsive */
