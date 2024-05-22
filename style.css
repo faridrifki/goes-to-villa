@@ -21,19 +21,37 @@ div.container {
 
 div.container div.timer {
     background-color: aliceblue;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px 15px;
     margin: 0 5px;
-    width: 40px;
+    width: 30px;
     border-radius: 12px;
 }
 
 div.container div.timer-info {
     color: black;
-    width: 40px;
+    width: 30px;
     padding: 10px 15px;
     margin: 0 5px;
     font-size: 10px;
 }
 
 /* responsive */
+@media (min-width: 600px) {
+    div.container div.timer {
+        background-color: aliceblue;
+        font-size: 50px;
+        padding: 10px 15px;
+        margin: 0 5px;
+        width: 70px;
+        border-radius: 12px;
+    }
+    
+    div.container div.timer-info {
+        color: black;
+        width: 70px;
+        padding: 10px 15px;
+        margin: 0 5px;
+        font-size: 10px;
+    }
+}
